@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2d226d;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #B6FFFA;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.menu .navbar ul li a:hover {
+    color: #B6FFFA;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+    padding: 50px 0 0 0;
+}
+
+.header-txt {
+    flex-basis: 30%;
+}
+
+.header-txt span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #afafaf;
+    margin-left: 0;
+}
+
+.header-txt h1 {
+    font-size: 100px;
+    color: #ffffff;
+    line-height: 1;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 30px 0 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(90deg, #00e1ff 0%, #9900ff 100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 0 0 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    flex-basis: 40%;
+}
+
+.about-img img {
+    width: 350px;
+    border-radius: 10px;
+    border: 10px solid #9900ff;
+    margin: 90px;
+}
+
+.about-txt {
+    flex-basis: 60%;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-txt p {
+    color: #afafaf;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.butons a {
+    margin-right: 15px;
+}
+
+.portafolio {
+    padding: 50px;
+    text-align: center;
+}
+
+.portafolio-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.portafolio-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.portafolio-txt span {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: #00e1ff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.portafolio-txt h3 {
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.portafolio-txt p {
+    font-size: 17px;
+    color: #afafaf;
+    margin-bottom: 25px;
+}
+
+.portafolio-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.portafolio-img img {
+    width: 400px;
+}
+
+.skills {
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.skills content {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    justify-content: center;
+}
+
+.skills content{
+    width: 70px;
+}
